@@ -1,0 +1,151 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1440px) {
+  .mini_card{
+gap: 0px 25px;
+  }
+  .detain_box > h1 {
+    font-size: 55px;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    .frame-wrapper {
+        width: 55%;
+    }
+    .detain_box > h1 {
+        font-size: 45px;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .detain_box > h1 {
+        font-size: 40px;
+    }
+    .acro_bn {
+        height: 500px;
+    }
+    .post_ab ,.post_ab1{
+        position: unset;
+        width: unset;
+        transform: unset;
+    }
+    .mordren_card{
+        gap: 0px 10px ;
+    }
+    .detain_box>h1>br{
+        display: none;
+    }
+    .detain_box>h2>br{
+        display: none;
+    }
+    .discover_box > h6 {
+        width: 100%;
+    }
+    .acro_bn{
+        width: auto;
+    }
+    .frame-wrapper {
+        position: absolute;
+        display: none;
+        top: 100%;
+        background: #000;
+        width: 100%;
+        z-index: 100;
+    }
+    .home-parent{
+        flex-direction: column;
+        width: 100%;
+        background-color: #000;
+        gap: 10px 0px !important;
+        align-items: flex-start;
+        padding: 20px;
+        box-shadow: 0px 4px 8px 1px lightgray;
+    }
+    .bars{
+        display: block;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .detain_box > h1 {
+        font-size: 30px;
+    }
+    .navbar {
+        padding-top: 20px;
+    }
+    .rectangle-parent{
+        padding: 5px 10px;
+    }
+    .pady_60 {
+        padding: 25px 0px;
+    }
+    .mini_card , .mordren_card{
+        gap: 20px 0px;
+        flex-direction: column;
+    }
+    .childCard1 {
+        width: 300px;
+        height: 350px;
+    }
+    .frame-div{
+        height: 100px;
+    }
+    .frame-div>h4{
+        padding: 0px !important;
+    }
+    .childCard2{
+        height: 500px !important;
+    }
+    .frame-div1 {
+        height: 130px !important;
+    }
+    .detain_box > h6 {
+        font-size: 18px;
+        padding: 0px 0px;
+    }
+    .custombtn{
+        padding: 10px 0px !important;
+    }
+    .detain_box {
+        padding-bottom: 30px;
+    }
+    .discover_bn {
+        height: 300px;
+        border-radius: 0 100px;
+    }
+    .acro_bn{
+        height: 300px;
+    }
+    .title_box > h2{
+        font-size: 25px;
+    }
+    .title_box > h6{
+        font-size: 18px;
+    }
+    .detain_box>h2{
+        font-size: 35px ;
+    }
+    .foot_wedgit {
+        padding: 7px 0px;
+    }
+    .post_ab1 {
+        transform: unset !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 420px) {
+   
+}
+@media only screen and (max-width: 360px) {
+    
+}
